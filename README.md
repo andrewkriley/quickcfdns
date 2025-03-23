@@ -13,7 +13,7 @@ This Bash script provides a command-line interface to manage DNS records (A and 
 **Prerequisites:**
 
 * **Cloudflare API Token:** You need a Cloudflare API token with DNS management permissions.
-* **`jq`:** The script uses `jq` to parse JSON responses from the Cloudflare API. Install it using your system's package manager (e.g., `sudo apt-get install jq` on Debian/Ubuntu, `brew install jq` on macOS).
+* **`jq`:** The script uses `jq` to parse JSON responses from the Cloudflare API. Install it using your system's package manager (e.g., `sudo apt-get install jq` on Debian/Ubuntu, `brew install jq` on macOS). NOTE: During my testing this worked natively on macOS Sequoia 15.3.2 with no extra packages needing to be installed.
 
 **Setup:**
 
